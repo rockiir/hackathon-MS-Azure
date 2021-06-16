@@ -20,6 +20,5 @@ NU_NOTA_CN Nota da prova de Ciências da Natureza NU_NOTA_CH Nota da prova de Ci
 
 Você deverá realizar uma análise de regressão para descobrir se é possível prever a nota da prova de Ciências da Natureza caso se saiba a nota de outra.
 
-
-### Criando um modelo de regressão com o designer do Azure Machine Learning
+### Passo 1 - Filtrar dados
 
