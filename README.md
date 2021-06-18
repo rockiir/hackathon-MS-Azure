@@ -20,5 +20,11 @@ NU_NOTA_CN Nota da prova de Ciências da Natureza NU_NOTA_CH Nota da prova de Ci
 
 Você deverá realizar uma análise de regressão para descobrir se é possível prever a nota da prova de Ciências da Natureza caso se saiba a nota de outra.
 
-### Passo 1 - Filtrar dados
+### Passo 1 - Criar grupo de recursos
+
+![Criar grupo de recursos](C:\Users\Raquel de matos\Documents\github\hackathon-MS-Azure\NotasEnem-Image\1)Criando grupo de recursos.jpg)
+
+### Passo 2- 
+
+### Passo 3 - 
 
