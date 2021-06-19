@@ -28,7 +28,7 @@ Você deverá realizar uma análise de regressão para descobrir se é possível
 
 
 
-![](\hackathon-MS-Azure\images\1-Criando grupo de recursos.jpg)
+![](https://github.com/rockiir/hackathon-MS-Azure/blob/main/NotasEnem-Image/1)Criando%20grupo%20de%20recursos.jpg)
 
 ### Passo 2-  Criando uma instancia de computação
 
