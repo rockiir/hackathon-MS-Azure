@@ -13,6 +13,8 @@
 Made with [contributors-img](https://contrib.rocks).
 
 ## Exercício proposto
+Após baixar o arquivo pelo link: https://download.inep.gov.br/microdados/microdados_enem_2019.zip
+O arquivo a ser usado está dentro da pasta dados, com o nome de "MICRODADOS_ENEM_2019.csv"
 
 #### Desafio 1 - (3 pontos) Existe alguma correlação entre as notas das provas objetivas? Comente.
 
@@ -25,23 +27,42 @@ NU_NOTA_CN Nota da prova de Ciências da Natureza NU_NOTA_CH Nota da prova de Ci
 Você deverá realizar uma análise de regressão para descobrir se é possível prever a nota da prova de Ciências da Natureza caso se saiba a nota de outra.
 
 ### Passo 1 - Criar grupo de recursos
-
+#### Criação de um Workspace 
+- Grupo de recursos: Hackathon
+- Nome do workspace: Hackathon
+- Região: Sul do Brasil
 
 
 ![](https://github.com/rockiir/hackathon-MS-Azure/blob/main/images/1-Criando%20grupo%20de%20recursos.jpg)
 
+## Na guia Gerir, na opção Computação
 ### Passo 2-  Criando uma instancia de computação
-Logo após criar o grupo de execussões fora criada a intância de computação com a unidade de processamento CPU e a Maquina virtual Standard_DS11_v2
+Logo após criar o grupo de execussões fora criada a instância de computação com a seguinte configuração:
+- Tipo de máquina virtual: CPU
+- Tamanho da máquina virtual: Standard_DS11_v2 
+- Nome de computação: DadosEnem 
+- Habilitar o acesso SSH: não selecionado
+
 
 ![Criando uma instancia de computação](https://github.com/rockiir/hackathon-MS-Azure/blob/main/images/2-Criando%20uma%20instancia%20de%20computa%C3%A7%C3%A3o.png)
 
 ### Passo 3 -  Criação de um cluster de calculo
-Em seguida criamos o cluster de cálculo com unidade de processamento em CPU e novamente maquina virtual Standard_DS11_v2
+Em seguida criamos o cluster de cálculo com a seguinte configuração:
+- Prioridade da máquina virtual: dedicada
+- Tipo de máquina virtual: CPU
+- Tamanho da máquina virtual: Standard_DS11_v2
+- Nome de computação: DadosEnem1
+- Número mínimo de nós: 0
+- Número máximo de nós: 2
+- Segundos de espera antes de reduzir verticalmente: 120
+- Habilitar o acesso SSH: não selecionado
 
 ![Criação de um cluster de calculo](https://github.com/rockiir/hackathon-MS-Azure/blob/main/images/3%20-%20Cria%C3%A7%C3%A3o%20de%20um%20cluster%20de%20calculo.png)
 
+## Na guia Author, na opção Designer/Estruturador 
 ### Passo 4 -  Criação de um pipeline
-Com os clusters prontos seguimos para a criação de pipeline
+Com os clusters prontos seguimos para a criação de pipeline com o nome "Notas do enem"
+
 
 ![Criação de um pipeline](https://github.com/rockiir/hackathon-MS-Azure/blob/main/images/4%20-Cria%C3%A7%C3%A3o%20de%20um%20pipeline.png)
 
