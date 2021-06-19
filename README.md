@@ -28,31 +28,31 @@ Você deverá realizar uma análise de regressão para descobrir se é possível
 
 
 
-![](https://github.com/rockiir/hackathon-MS-Azure/blob/main/NotasEnem-Image/1)Criando%20grupo%20de%20recursos.jpg)
+![](https://github.com/rockiir/hackathon-MS-Azure/blob/main/images/1-Criando%20grupo%20de%20recursos.jpg)
 
 ### Passo 2-  Criando uma instancia de computação
 
-![Criando uma instancia de computação](C:\Users\Raquel de matos\Documents\github\hackathon-MS-Azure\images\2-Criando uma instancia de computação.png)
+![Criando uma instancia de computação](https://github.com/rockiir/hackathon-MS-Azure/blob/main/images/2-Criando%20uma%20instancia%20de%20computa%C3%A7%C3%A3o.png)
 
 ### Passo 3 -  Criação de um cluster de calculo
 
-![image-20210618204757406](C:\Users\Raquel de matos\Documents\github\hackathon-MS-Azure\image-20210618204757406.png)
+![Criação de um cluster de calculo](https://github.com/rockiir/hackathon-MS-Azure/blob/main/images/3%20-%20Cria%C3%A7%C3%A3o%20de%20um%20cluster%20de%20calculo.png)
 
 ### Passo 4 -  Criação de um pipeline
 
-![image-20210618204843049](C:\Users\Raquel de matos\Documents\github\hackathon-MS-Azure\image-20210618204843049.png)
+![Criação de um pipeline](https://github.com/rockiir/hackathon-MS-Azure/blob/main/images/4%20-Cria%C3%A7%C3%A3o%20de%20um%20pipeline.png)
 
 ### Passo 5 -Criação de um conjunto de dados
 
-![image-20210618205047767](C:\Users\Raquel de matos\Documents\github\hackathon-MS-Azure\image-20210618205047767.png)
+![-Criação de um conjunto de dados](https://github.com/rockiir/hackathon-MS-Azure/blob/main/images/5-%20Cria%C3%A7%C3%A3o%20de%20um%20conjunto%20de%20dados.png)
 
 Detalhes
 
-![image-20210618205105596](C:\Users\Raquel de matos\Documents\github\hackathon-MS-Azure\image-20210618205105596.png)
+![Detalhes](https://github.com/rockiir/hackathon-MS-Azure/blob/main/images/5.2-%20Detalhes.png)
 
 
 
-![image-20210618205117519](C:\Users\Raquel de matos\Documents\github\hackathon-MS-Azure\image-20210618205117519.png)
+![Detalhes](https://github.com/rockiir/hackathon-MS-Azure/blob/main/images/5.3-%20Detalhes.png)
 
 5.4 - Selecionando as colunas com notas
 
