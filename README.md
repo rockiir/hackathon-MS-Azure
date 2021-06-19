@@ -31,18 +31,23 @@ Você deverá realizar uma análise de regressão para descobrir se é possível
 ![](https://github.com/rockiir/hackathon-MS-Azure/blob/main/images/1-Criando%20grupo%20de%20recursos.jpg)
 
 ### Passo 2-  Criando uma instancia de computação
+Logo após criar o grupo de execussões fora criada a intância de computação com a unidade de processamento CPU e a Maquina virtual Standard_DS11_v2
 
 ![Criando uma instancia de computação](https://github.com/rockiir/hackathon-MS-Azure/blob/main/images/2-Criando%20uma%20instancia%20de%20computa%C3%A7%C3%A3o.png)
 
 ### Passo 3 -  Criação de um cluster de calculo
+Em seguida criamos o cluster de cálculo com unidade de processamento em CPU e novamente maquina virtual Standard_DS11_v2
 
 ![Criação de um cluster de calculo](https://github.com/rockiir/hackathon-MS-Azure/blob/main/images/3%20-%20Cria%C3%A7%C3%A3o%20de%20um%20cluster%20de%20calculo.png)
 
 ### Passo 4 -  Criação de um pipeline
+Com os clusters prontos seguimos para a criação de pipeline
 
 ![Criação de um pipeline](https://github.com/rockiir/hackathon-MS-Azure/blob/main/images/4%20-Cria%C3%A7%C3%A3o%20de%20um%20pipeline.png)
 
-### Passo 5 -Criação de um conjunto de dados
+### Passo 5 -Criação de um conjunto de dados 
+Mas antes disso não podemos esquecer do conjunto de dados, que se revelou o maior desafio de todo o projeto, pois o conjunto de dados do enem 2019 era muito grande, então tivemos repetidos problemas ao fazer upload do arquivo e ao analisá-los.
+
 
 ![-Criação de um conjunto de dados](https://github.com/rockiir/hackathon-MS-Azure/blob/main/images/5-%20Cria%C3%A7%C3%A3o%20de%20um%20conjunto%20de%20dados.png)
 
@@ -60,7 +65,7 @@ Detalhes
 
 ### Passo 6 - Selecionando as colunas
 
-![Selecionando as colunas](https://github.com/rockiir/hackathon-MS-Azure/blob/main/images/6.2-Selecionando%20as%20colunas.png)
+![Selecionando as colunas](https://github.com/rockiir/hackathon-MS-Azure/blob/main/images/6.2-Selecionando%20as%20colunas.png) 
 
 Limpando dados
 
