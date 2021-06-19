@@ -65,38 +65,42 @@ Com os clusters prontos seguimos para a criação de pipeline com o nome "Notas 
 
 
 ![Criação de um pipeline](https://github.com/rockiir/hackathon-MS-Azure/blob/main/images/4%20-Cria%C3%A7%C3%A3o%20de%20um%20pipeline.png)
+## Na guia recursos, na opção Conjunto de Dados
 
 ### Passo 5 -Criação de um conjunto de dados 
-Mas antes disso não podemos esquecer do conjunto de dados, que se revelou o maior desafio de todo o projeto, pois o conjunto de dados do enem 2019 era muito grande, então tivemos repetidos problemas ao fazer upload do arquivo e ao analisá-los.
-
+Mas antes  não podemos esquecer do conjunto de dados, que se revelou o maior desafio de todo o projeto, pois o conjunto de dados do enem 2019 era muito grande, então tivemos repetidos problemas ao fazer upload do arquivo e ao analisá-los, porém depois de muito tentar conseguimos fazer o upload.
+- Envie o arquivo "MICRODADOS_ENEM_2019.csv"
+- O Azure já vem com todas as opções selecionadas corretamente
+- Como o ficheiro é grande pode haver demora para carregar o arquivo (não feche a aba, pois ele cancela o processo)
 
 ![-Criação de um conjunto de dados](https://github.com/rockiir/hackathon-MS-Azure/blob/main/images/5-%20Cria%C3%A7%C3%A3o%20de%20um%20conjunto%20de%20dados.png)
 
-Detalhes
+Na seção esquemas, desmarque todas as colunas que não são necessárias
 
 ![Detalhes](https://github.com/rockiir/hackathon-MS-Azure/blob/main/images/5.2-%20Detalhes.png)
 
 
-Selecionamos as colunas com as notas para reduzir a tabela, ignorando as demais.
+Deixe apenas as colunas com as notas de todas as áreas de conhecimento
 ![Selecionando as colunas com notas](https://github.com/rockiir/hackathon-MS-Azure/blob/main/images/5.4-%20Selecionando%20as%20colunas%20com%20notas.png)
 
 
+## Na guia Author, na opção Designer/Estruturador, abra o pipeline criado anteriormente
 ### Passo 6 - Selecionando as colunas
 Voltando ao pipeline.
-Selecionamos a tabela com as notas, e conectamos ao  Select Columns in Dataset onde selecionamos apenas as colunas que iriamos avaliar (notas de ciencias da natureza e de matemática).
-
+Selecione a seção "Conjuntos de dados de exemplo (Datasets)" e arraste o conjunto de dados criado para tela.
+Selecionando as colunas das notas de Ciências da Natureza e Matemática
 ![Selecionando as colunas](https://github.com/rockiir/hackathon-MS-Azure/blob/main/images/6.2-Selecionando%20as%20colunas.png) 
 
-Conectamos o Select Columns in Dataset ao Clean missing data selecionando apenas a coluna de matemática como mostra na imagem a anterior.
-
+A partir da seção "Transformação de Dados (Data Tranformation)" arrastar o módulo "Selecionar Colunas no Conjunto de Dados" conectando a saída do módulo "NotasEnem"
 ![Limpando dados](https://github.com/rockiir/hackathon-MS-Azure/blob/main/images/6.3-%20Limpando%20dados.png)
 
-Em seguida ligamos ao Normalize Data como mostrado acima, setamos o transformation method como MinMax e selecionamos a coluna de matematica.
+Em seguida ligue ao Normalize Data como mostrado acima, setamos o transformation method como MinMax e selecionamos a coluna de matematica.
 
 ![Normalizando dados (MinMax)](https://github.com/rockiir/hackathon-MS-Azure/blob/main/images/6.4-%20Normalizando%20dados%20MinMax.png)
-
-
-
+A partir da seção "Transformação de Dados" arrastar o módulo "Limpar Dados Ausentes (Clean Missing Data)" conectando a saída do módulo "Selecionar Colunas no Conjunto de Dados" - Selecionar a coluna das notas de Matemática
+- Taxa mínima de valores ausentes: 0,0
+- Taxa máxima de valores ausentes: 1,0
+- Modo de limpeza: remover linha inteira
 ### Passo 7 -  Pipeline completo
 O pipeline ficou da seguinte forma.
 
