@@ -56,15 +56,15 @@ Detalhes
 
 5.4 - Selecionando as colunas com notas
 
-![image-20210618205137317](C:\Users\Raquel de matos\Documents\github\hackathon-MS-Azure\image-20210618205137317.png)
+![Selecionando as colunas com notas](https://github.com/rockiir/hackathon-MS-Azure/blob/main/images/5.4-%20Selecionando%20as%20colunas%20com%20notas.png)
 
 ### Passo 6 - Selecionando as colunas
 
-![image-20210618205309091](C:\Users\Raquel de matos\Documents\github\hackathon-MS-Azure\image-20210618205309091.png)
+![Selecionando as colunas](https://github.com/rockiir/hackathon-MS-Azure/blob/main/images/6.2-Selecionando%20as%20colunas.png)
 
 Limpando dados
 
-![image-20210618205419543](C:\Users\Raquel de matos\Documents\github\hackathon-MS-Azure\image-20210618205419543.png)
+![Limpando dados](https://github.com/rockiir/hackathon-MS-Azure/blob/main/images/6.3-%20Limpando%20dados.png)
 
 Normalizando dados (MinMax)
 
@@ -74,7 +74,7 @@ Normalizando dados (MinMax)
 
 ### Passo 7 -  Pipeline parte1 completo
 
-![image-20210618205504603](C:\Users\Raquel de matos\Documents\github\hackathon-MS-Azure\image-20210618205504603.png)
+![Pipeline parte1 completo](https://github.com/rockiir/hackathon-MS-Azure/blob/main/images/7-%20Pipeline%20parte1%20completo.png)
 
 
 
