@@ -105,24 +105,23 @@ A partir da seção "Transformação de Dados" arrastar o módulo "Limpar Dados 
 O pipeline ficou da seguinte forma.
 
 ![Pipeline parte1 completo](https://github.com/rockiir/hackathon-MS-Azure/blob/main/images/7-%20Pipeline%20parte1%20completo.png)
-Fizemos um teste e após o checkout positivo continuamos o pipeline 
-Conectamos o Split Data ao Normalize Data. 
-O train model ficou logo abaixo ligado em split Data e Linear regression em sua parte superior e Score model na parte inferior.
-Por fim ligamos o Evaluated model na parte inferior do Score model e enviamos o arquivo para teste.
-Obs: selecionamos a coluna de matematica em todos que pediram nessa primeira fase exceto em Select collumns in dataset.
-
 
 ### Passo 8 -Avaliando o modelo
-
-
+Selecione Enviar e execute o pipeline como um novo experimento
 ![Avaliando o modelo](https://github.com/rockiir/hackathon-MS-Azure/blob/main/images/15-%20Avaliando%20o%20modelo.jpg)
 
 ### Passo 9 -Resultados parciais obtidos
 Abaixo os resultados obtidos nessa etapa do processo.
+- Na seção "Transformações de Dados", selecione o módulo "Dividir Dados". Em seguida, conecte a saída Conjunto de dados transformado (à esquerda) do módulo Normalizar dados para a entrada do módulo Dividir dados.
+- Modo de divisão: dividir linhas
+- Fração das linhas no primeiro conjunto de dados de saída: 0,5
+- Semente aleatória: 123
+- Divisão estratificada: Falso
 
 ![Resultados parciais obtidos](https://github.com/rockiir/hackathon-MS-Azure/blob/main/images/15.1-Resultados%20parciais%20obtidos.jpg)
 
 ### Passo 10  -- Pipeline de Inferencia sem alterações
+
 
 ![Pipeline de Inferencia sem alterações](https://github.com/rockiir/hackathon-MS-Azure/blob/main/images/17-%20Pipeline%20de%20Inferencia%20sem%20altera%C3%A7%C3%B5es.jpg)
 
@@ -151,5 +150,9 @@ Abaixo os resultados obtidos nessa etapa do processo.
 ![resultado continuação](https://github.com/rockiir/hackathon-MS-Azure/blob/main/images/24.3-resultado%20continua%C3%A7%C3%A3o.jpg)
 
 24-resultado
+Quando o pipeline for concluído, selecione o módulo "Executar script Python" e, no painel de configurações, na guia "Saída + logs", visualize o Conjunto de dados de resultados para ver a nota de Ciências da Natureza prevista  nos dados de entrada.
 
+Com base nos resultados obtidos para uma nota 700.0 em Matemática, a nota prevista para Ciências da Natureza será: 557.8304
+
+Agora o modelo é capaz de prever notas da área de Ciências da Natureza com base nas notas de matemática.
 ![resultado](https://github.com/rockiir/hackathon-MS-Azure/blob/main/images/24-resultado.jpg)
