@@ -26,7 +26,7 @@ Você deverá realizar uma análise de regressão para descobrir se é possível
 
 ### Passo 1 - Criar grupo de recursos
 
-![](C:\Users\Raquel de matos\Documents\github\hackathon-MS-Azure\images\1-Criando grupo de recursos.jpg)
+<img src="C:\Users\Raquel de matos\Documents\github\hackathon-MS-Azure\images\1-Criando grupo de recursos.jpg" width="750">
 
 ![](C:\Users\Raquel de matos\Documents\github\hackathon-MS-Azure\images\1-Criando grupo de recursos.jpg)
 
