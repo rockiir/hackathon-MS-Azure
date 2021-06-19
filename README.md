@@ -26,11 +26,11 @@ Você deverá realizar uma análise de regressão para descobrir se é possível
 
 ### Passo 1 - Criar grupo de recursos
 
-![image-20210618204638626](C:\Users\Raquel de matos\Documents\github\hackathon-MS-Azure\image-20210618204638626.png)
+![](C:\Users\Raquel de matos\Documents\github\hackathon-MS-Azure\images\1-Criando grupo de recursos.jpg)
 
 ### Passo 2-  Criando uma instancia de computação
 
-![image-20210618204732789](C:\Users\Raquel de matos\Documents\github\hackathon-MS-Azure\image-20210618204732789.png)
+![](C:\Users\Raquel de matos\Documents\github\hackathon-MS-Azure\images\2-Criando uma instancia de computação.png)
 
 ### Passo 3 -  Criação de um cluster de calculo
 
