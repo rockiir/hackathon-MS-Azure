@@ -56,24 +56,23 @@ Detalhes
 ![Detalhes](https://github.com/rockiir/hackathon-MS-Azure/blob/main/images/5.2-%20Detalhes.png)
 
 
-
-![Detalhes](https://github.com/rockiir/hackathon-MS-Azure/blob/main/images/5.3-%20Detalhes.png)
-
-5.4 - Selecionando as colunas com notas
-
+Selecionamos as colunas com as notas para reduzir a tabela, ignorando as demais.
 ![Selecionando as colunas com notas](https://github.com/rockiir/hackathon-MS-Azure/blob/main/images/5.4-%20Selecionando%20as%20colunas%20com%20notas.png)
 
+
 ### Passo 6 - Selecionando as colunas
+Voltando ao pipeline.
+Selecionamos a tabela com as notas, e conectamos ao  Select Columns in Dataset onde selecionamos apenas as colunas que iriamos avaliar (notas de ciencias da natureza e de matemática).
 
 ![Selecionando as colunas](https://github.com/rockiir/hackathon-MS-Azure/blob/main/images/6.2-Selecionando%20as%20colunas.png) 
 
-Limpando dados
+Conectamos o Select Columns in Dataset ao Clean missing data selecionando apenas a coluna de matemática como mostra na imagem a seguir.
 
 ![Limpando dados](https://github.com/rockiir/hackathon-MS-Azure/blob/main/images/6.3-%20Limpando%20dados.png)
 
 Normalizando dados (MinMax)
 
-![image-20210618205441431](C:\Users\Raquel de matos\Documents\github\hackathon-MS-Azure\image-20210618205441431.png)
+![Normalizando dados (MinMax)](https://github.com/rockiir/hackathon-MS-Azure/blob/main/images/6.4-%20Normalizando%20dados%20MinMax.png)
 
 
 
