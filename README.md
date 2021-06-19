@@ -66,27 +66,34 @@ Selecionamos a tabela com as notas, e conectamos ao  Select Columns in Dataset o
 
 ![Selecionando as colunas](https://github.com/rockiir/hackathon-MS-Azure/blob/main/images/6.2-Selecionando%20as%20colunas.png) 
 
-Conectamos o Select Columns in Dataset ao Clean missing data selecionando apenas a coluna de matemática como mostra na imagem a seguir.
+Conectamos o Select Columns in Dataset ao Clean missing data selecionando apenas a coluna de matemática como mostra na imagem a anterior.
 
 ![Limpando dados](https://github.com/rockiir/hackathon-MS-Azure/blob/main/images/6.3-%20Limpando%20dados.png)
 
-Normalizando dados (MinMax)
+Em seguida ligamos ao Normalize Data como mostrado acima, setamos o transformation method como MinMax e selecionamos a coluna de matematica.
 
 ![Normalizando dados (MinMax)](https://github.com/rockiir/hackathon-MS-Azure/blob/main/images/6.4-%20Normalizando%20dados%20MinMax.png)
 
 
 
-### Passo 7 -  Pipeline parte1 completo
+### Passo 7 -  Pipeline completo
+O pipeline ficou da seguinte forma.
 
 ![Pipeline parte1 completo](https://github.com/rockiir/hackathon-MS-Azure/blob/main/images/7-%20Pipeline%20parte1%20completo.png)
+Fizemos um teste e após o checkout positivo continuamos o pipeline 
+Conectamos o Split Data ao Normalize Data. 
+O train model ficou logo abaixo ligado em split Data e Linear regression em sua parte superior e Score model na parte inferior.
+Por fim ligamos o Evaluated model na parte inferior do Score model e enviamos o arquivo para teste.
+Obs: selecionamos a coluna de matematica em todos que pediram nessa primeira fase exceto em Select collumns in dataset.
 
-![]()
 
 ### Passo 8 -Avaliando o modelo
+
 
 ![Avaliando o modelo](https://github.com/rockiir/hackathon-MS-Azure/blob/main/images/15-%20Avaliando%20o%20modelo.jpg)
 
 ### Passo 9 -Resultados parciais obtidos
+Abaixo os resultados obtidos nessa etapa do processo.
 
 ![Resultados parciais obtidos](https://github.com/rockiir/hackathon-MS-Azure/blob/main/images/15.1-Resultados%20parciais%20obtidos.jpg)
 
