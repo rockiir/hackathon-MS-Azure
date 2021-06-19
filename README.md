@@ -80,40 +80,40 @@ Normalizando dados (MinMax)
 
 ### Passo 8 -Avaliando o modelo
 
-![]()
+![Avaliando o modelo](https://github.com/rockiir/hackathon-MS-Azure/blob/main/images/15-%20Avaliando%20o%20modelo.jpg)
 
 ### Passo 9 -Resultados parciais obtidos
 
-![]()
+![Resultados parciais obtidos](https://github.com/rockiir/hackathon-MS-Azure/blob/main/images/15.1-Resultados%20parciais%20obtidos.jpg)
 
 ### Passo 10  -- Pipeline de Inferencia sem alterações
 
-![]()
+![Pipeline de Inferencia sem alterações](https://github.com/rockiir/hackathon-MS-Azure/blob/main/images/17-%20Pipeline%20de%20Inferencia%20sem%20altera%C3%A7%C3%B5es.jpg)
 
 ### Passo 11 -dados CSV
 
-![]()
+![dados CSV](https://github.com/rockiir/hackathon-MS-Azure/blob/main/images/18-%20dados%20CSV.jpg)
 
 ### Passo 12 - script Python
 
-![]()
+![script Python](https://github.com/rockiir/hackathon-MS-Azure/blob/main/images/22-%20script%20Python.jpg)
 
 ### Passo 13 - Pipeline de inferencia_finalizado
 
-![]()
+![Pipeline de inferencia_finalizado](https://github.com/rockiir/hackathon-MS-Azure/blob/main/images/23-%20Pipeline%20de%20inferencia_finalizado.jpg)
 
 ### Passo 14 - resultado continuação
 
-![]()
+![resultado continuação](https://github.com/rockiir/hackathon-MS-Azure/blob/main/images/24.1-%20resultado%20continua%C3%A7%C3%A3o.jpg)
 
 24.2- resultado continuação
 
-![]()
+![resultado continuação](https://github.com/rockiir/hackathon-MS-Azure/blob/main/images/24.2-%20resultado%20continua%C3%A7%C3%A3o.jpg)
 
 24.3-resultado continuação
 
-![]()
+![resultado continuação](https://github.com/rockiir/hackathon-MS-Azure/blob/main/images/24.3-resultado%20continua%C3%A7%C3%A3o.jpg)
 
 24-resultado
 
-![]()
+![resultado](https://github.com/rockiir/hackathon-MS-Azure/blob/main/images/24-resultado.jpg)
