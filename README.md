@@ -76,27 +76,44 @@ Normalizando dados (MinMax)
 
 ![Pipeline parte1 completo](https://github.com/rockiir/hackathon-MS-Azure/blob/main/images/7-%20Pipeline%20parte1%20completo.png)
 
+![]()
 
+### Passo 8 -Avaliando o modelo
 
-### Passo 8 -
+![]()
 
+### Passo 9 -Resultados parciais obtidos
 
+![]()
 
-### Passo 9 -
+### Passo 10  -- Pipeline de Inferencia sem alterações
 
+![]()
 
+### Passo 11 -dados CSV
 
-### Passo 10  -
+![]()
 
+### Passo 12 - script Python
 
+![]()
 
-### Passo 11 -
+### Passo 13 - Pipeline de inferencia_finalizado
 
+![]()
 
+### Passo 14 - resultado continuação
 
-### Passo 12 -
+![]()
 
-### Passo 13 -
+24.2- resultado continuação
 
-### Passo 14 -
+![]()
 
+24.3-resultado continuação
+
+![]()
+
+24-resultado
+
+![]()
