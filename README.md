@@ -1,3 +1,7 @@
+
+
+
+
 # hackathon-MS-Azure
 
 ## Equipe
@@ -22,9 +26,75 @@ Você deverá realizar uma análise de regressão para descobrir se é possível
 
 ### Passo 1 - Criar grupo de recursos
 
-![Criar grupo de recursos](C:\Users\Raquel de matos\Documents\github\hackathon-MS-Azure\NotasEnem-Image\1)Criando grupo de recursos.jpg)
+![image-20210618204638626](C:\Users\Raquel de matos\Documents\github\hackathon-MS-Azure\image-20210618204638626.png)
 
-### Passo 2- 
+### Passo 2-  Criando uma instancia de computação
 
-### Passo 3 - 
+![image-20210618204732789](C:\Users\Raquel de matos\Documents\github\hackathon-MS-Azure\image-20210618204732789.png)
+
+### Passo 3 -  Criação de um cluster de calculo
+
+![image-20210618204757406](C:\Users\Raquel de matos\Documents\github\hackathon-MS-Azure\image-20210618204757406.png)
+
+### Passo 4 -  Criação de um pipeline
+
+![image-20210618204843049](C:\Users\Raquel de matos\Documents\github\hackathon-MS-Azure\image-20210618204843049.png)
+
+### Passo 5 -Criação de um conjunto de dados
+
+![image-20210618205047767](C:\Users\Raquel de matos\Documents\github\hackathon-MS-Azure\image-20210618205047767.png)
+
+Detalhes
+
+![image-20210618205105596](C:\Users\Raquel de matos\Documents\github\hackathon-MS-Azure\image-20210618205105596.png)
+
+
+
+![image-20210618205117519](C:\Users\Raquel de matos\Documents\github\hackathon-MS-Azure\image-20210618205117519.png)
+
+5.4 - Selecionando as colunas com notas
+
+![image-20210618205137317](C:\Users\Raquel de matos\Documents\github\hackathon-MS-Azure\image-20210618205137317.png)
+
+### Passo 6 - Selecionando as colunas
+
+![image-20210618205309091](C:\Users\Raquel de matos\Documents\github\hackathon-MS-Azure\image-20210618205309091.png)
+
+Limpando dados
+
+![image-20210618205419543](C:\Users\Raquel de matos\Documents\github\hackathon-MS-Azure\image-20210618205419543.png)
+
+Normalizando dados (MinMax)
+
+![image-20210618205441431](C:\Users\Raquel de matos\Documents\github\hackathon-MS-Azure\image-20210618205441431.png)
+
+
+
+### Passo 7 -  Pipeline parte1 completo
+
+![image-20210618205504603](C:\Users\Raquel de matos\Documents\github\hackathon-MS-Azure\image-20210618205504603.png)
+
+
+
+### Passo 8 -
+
+
+
+### Passo 9 -
+
+
+
+### Passo 10  -
+
+
+
+### Passo 11 -
+
+
+
+### Passo 12 -
+
+### Passo 13 -
+
+### Passo 14 -
 
