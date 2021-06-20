@@ -1,3 +1,5 @@
+# hackathon-MS-Azure
+
 <!-- vscode-markdown-toc -->
 * 1. [Equipe](#Equipe)
 * 2. [Exercício proposto](#Exerccioproposto)
@@ -28,7 +30,7 @@
 	numbering=true
 	autoSave=true
 	/vscode-markdown-toc-config -->
-<!-- /vscode-markdown-toc --># hackathon-MS-Azure
+<!-- /vscode-markdown-toc --> 
 
 
 
