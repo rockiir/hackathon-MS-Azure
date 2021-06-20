@@ -154,10 +154,16 @@ def azureml_main(dataframe1 = None, dataframe2 = None):
 
 ### Passo 13 - Pipeline de inferencia_finalizado
 Envie o pipeline como um novo experimento denominado "InferenciaAutomaticaNota" no cluster de cálculo.
+
 ![Pipeline de inferencia_finalizado](https://github.com/rockiir/hackathon-MS-Azure/blob/main/images/23-%20Pipeline%20de%20inferencia_finalizado.jpg)
 
+## Resultado
 ### Passo 14 - resultado continuação
+Quando o pipeline for concluído, selecione o módulo "Executar script Python" e, no painel de configurações, na guia "Saída + logs", visualize o Conjunto de dados de resultados para ver a nota de Ciências da Natureza prevista  nos dados de entrada.
 
+Com base nos resultados obtidos para uma nota 700.0 em Matemática, a nota prevista para Ciências da Natureza será: 557.8304
+
+Agora o modelo é capaz de prever notas da área de Ciências da Natureza com base nas notas de matemática.
 ![resultado continuação](https://github.com/rockiir/hackathon-MS-Azure/blob/main/images/24.1-%20resultado%20continua%C3%A7%C3%A3o.jpg)
 
 24.2- resultado continuação
@@ -169,9 +175,5 @@ Envie o pipeline como um novo experimento denominado "InferenciaAutomaticaNota" 
 ![resultado continuação](https://github.com/rockiir/hackathon-MS-Azure/blob/main/images/24.3-resultado%20continua%C3%A7%C3%A3o.jpg)
 
 24-resultado
-Quando o pipeline for concluído, selecione o módulo "Executar script Python" e, no painel de configurações, na guia "Saída + logs", visualize o Conjunto de dados de resultados para ver a nota de Ciências da Natureza prevista  nos dados de entrada.
 
-Com base nos resultados obtidos para uma nota 700.0 em Matemática, a nota prevista para Ciências da Natureza será: 557.8304
-
-Agora o modelo é capaz de prever notas da área de Ciências da Natureza com base nas notas de matemática.
 ![resultado](https://github.com/rockiir/hackathon-MS-Azure/blob/main/images/24-resultado.jpg)
