@@ -5,12 +5,17 @@
 # hackathon-MS-Azure
 
 ## Equipe
+Randaw, Eduarda e Raquel.
+
 
 <a href="https://github.com/rockiir/hackathon-MS-Azure/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=rockiir/hackathon-MS-Azure" />
 </a>
 
 Made with [contributors-img](https://contrib.rocks).
+
+Esse trabalho faz parte da trilha de Engenheiros de IA e Azure oferecida pela Ânima em parceria com a Microsoft.
+A trilha que foi feita ao longo do semestre, teve inicio com o curso de nuvem da Azure e em seguida o curso de IA no Azure, tendo seu desfecho com alguns desafios em IA na nuvem.
 
 ## Exercício proposto
 Após baixar o arquivo pelo link: https://download.inep.gov.br/microdados/microdados_enem_2019.zip
