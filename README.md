@@ -1,7 +1,3 @@
-
-
-
-
 # hackathon-MS-Azure
 
 ## Equipe
@@ -126,20 +122,38 @@ Abaixo os resultados obtidos nessa etapa do processo.
 ![Resultados parciais obtidos](https://github.com/rockiir/hackathon-MS-Azure/blob/main/images/15.1-Resultados%20parciais%20obtidos.jpg)
 
 ### Passo 10  -- Pipeline de Inferencia sem alterações
-
+- Renomeie o novo pipeline para "Prever Nota CN"
+- Substitua o conjunto de dados "NotasEnem" com um módulo "Inserir Dados Manualmente" que não inclua a coluna de "NU_NOTA_CN".
+Conecte o novo módulo "Inserir Dados Manualmente" à mesma entrada de conjunto de dados do módulo "Selecionar Colunas no Conjunto de Dados" como a Entrada do Serviço Web.
 
 ![Pipeline de Inferencia sem alterações](https://github.com/rockiir/hackathon-MS-Azure/blob/main/images/17-%20Pipeline%20de%20Inferencia%20sem%20altera%C3%A7%C3%B5es.jpg)
 
 ### Passo 11 -dados CSV
-
+Como o objetivo é mostrar a previsão de apenas uma nota de Ciências da Natureza,vamos usar de exemplo a nota 700 em Matemática
+Para isso modifique os dados CSV para:
 ![dados CSV](https://github.com/rockiir/hackathon-MS-Azure/blob/main/images/18-%20dados%20CSV.jpg)
+- Modifique o módulo Selecionar colunas no conjunto de dados para remover referências à coluna "NU_NOTA_CN" (agora ausente).
+- Remova o módulo Avaliar Modelo.
 
 ### Passo 12 - script Python
+Insira um módulo Executar script Python antes da saída do serviço Web para retornar apenas o rótulo previsto.
+Conecte a saída módulo Pontuar modelo à entrada Dataset1 (mais à esquerda) de Executar script Python e conecte a saída do módulo Executar script Python à Saída do serviço Web.
+Substitua todo o script Python padrão pelo seguinte código (que seleciona apenas a coluna "Rótulos Pontuados" e renomeia-a para predicted_nota):
+```python
+import pandas as pd
 
+def azureml_main(dataframe1 = None, dataframe2 = None):
+
+    scored_results = dataframe1[['Scored Labels']]
+    scored_results.rename(columns={'Scored Labels':'predicted_nota'},
+                        inplace=True)
+    return scored_results
+ 
+```
 ![script Python](https://github.com/rockiir/hackathon-MS-Azure/blob/main/images/22-%20script%20Python.jpg)
 
 ### Passo 13 - Pipeline de inferencia_finalizado
-
+Envie o pipeline como um novo experimento denominado "InferenciaAutomaticaNota" no cluster de cálculo.
 ![Pipeline de inferencia_finalizado](https://github.com/rockiir/hackathon-MS-Azure/blob/main/images/23-%20Pipeline%20de%20inferencia_finalizado.jpg)
 
 ### Passo 14 - resultado continuação
