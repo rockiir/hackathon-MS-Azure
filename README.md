@@ -142,16 +142,18 @@ O pipeline ficou da seguinte forma.
 ![Pipeline parte1 completo](https://github.com/rockiir/hackathon-MS-Azure/blob/main/images/7-%20Pipeline%20parte1%20completo.png)
 
 ###  6.3. <a name='Passo8-Avaliandoomodelo'></a>Passo 8 -Avaliando o modelo
-Selecione Enviar e execute o pipeline como um novo experimento
-![Avaliando o modelo](https://github.com/rockiir/hackathon-MS-Azure/blob/main/images/15-%20Avaliando%20o%20modelo.jpg)
-
-###  6.4. <a name='Passo9-Resultadosparciaisobtidos'></a>Passo 9 -Resultados parciais obtidos
-Abaixo os resultados obtidos nessa etapa do processo.
 - Na seção "Transformações de Dados", selecione o módulo "Dividir Dados". Em seguida, conecte a saída Conjunto de dados transformado (à esquerda) do módulo Normalizar dados para a entrada do módulo Dividir dados.
 - Modo de divisão: dividir linhas
 - Fração das linhas no primeiro conjunto de dados de saída: 0,5
 - Semente aleatória: 123
 - Divisão estratificada: Falso
+
+Selecione Enviar e execute o pipeline como um novo experimento.
+
+![Avaliando o modelo](https://github.com/rockiir/hackathon-MS-Azure/blob/main/images/15-%20Avaliando%20o%20modelo.jpg)
+
+###  6.4. <a name='Passo9-Resultadosparciaisobtidos'></a>Passo 9 -Resultados parciais obtidos
+Abaixo os resultados obtidos nessa etapa do processo. 
 
 ![Resultados parciais obtidos](https://github.com/rockiir/hackathon-MS-Azure/blob/main/images/15.1-Resultados%20parciais%20obtidos.jpg)
 
@@ -192,22 +194,20 @@ Envie o pipeline como um novo experimento denominado "InferenciaAutomaticaNota" 
 ![Pipeline de inferencia_finalizado](https://github.com/rockiir/hackathon-MS-Azure/blob/main/images/23-%20Pipeline%20de%20inferencia_finalizado.jpg)
 
 ##  7. <a name='Resultado'></a>Resultado
-###  7.1. <a name='Passo14-resultadocontinuao'></a>Passo 14 - resultado continuação
+###  7.1. <a name='Passo14-resultadocontinuao'></a>Passo 14 - Resultado
 Quando o pipeline for concluído, selecione o módulo "Executar script Python" e, no painel de configurações, na guia "Saída + logs", visualize o Conjunto de dados de resultados para ver a nota de Ciências da Natureza prevista  nos dados de entrada.
 
 Com base nos resultados obtidos para uma nota 700.0 em Matemática, a nota prevista para Ciências da Natureza será: 557.8304
 
 Agora o modelo é capaz de prever notas da área de Ciências da Natureza com base nas notas de matemática.
-![resultado continuação](https://github.com/rockiir/hackathon-MS-Azure/blob/main/images/24.1-%20resultado%20continua%C3%A7%C3%A3o.jpg)
-
-24.2- resultado continuação
-
-![resultado continuação](https://github.com/rockiir/hackathon-MS-Azure/blob/main/images/24.2-%20resultado%20continua%C3%A7%C3%A3o.jpg)
-
-24.3-resultado continuação
-
-![resultado continuação](https://github.com/rockiir/hackathon-MS-Azure/blob/main/images/24.3-resultado%20continua%C3%A7%C3%A3o.jpg)
-
-24-resultado
 
 ![resultado](https://github.com/rockiir/hackathon-MS-Azure/blob/main/images/24-resultado.jpg)
+
+###  <a name='Passo14-resultadocontinuao'></a>Resultado continuação (Foto - 2)
+![resultado continuação](https://github.com/rockiir/hackathon-MS-Azure/blob/main/images/24.1-%20resultado%20continua%C3%A7%C3%A3o.jpg)
+
+###  <a name='Passo14-resultadocontinuao'></a>Resultado continuação (Foto - 3)
+![resultado continuação](https://github.com/rockiir/hackathon-MS-Azure/blob/main/images/24.2-%20resultado%20continua%C3%A7%C3%A3o.jpg)
+
+###  <a name='Passo14-resultadocontinuao'></a>Resultado continuação (Foto - 4)
+![resultado continuação](https://github.com/rockiir/hackathon-MS-Azure/blob/main/images/24.3-resultado%20continua%C3%A7%C3%A3o.jpg)
